@@ -6,6 +6,14 @@ RPC ```https://data-seed-prebsc-1-s1.binance.org:8545/```
 
 Go to ```https://testnet.binance.org/faucet-smart``` to get 1 test BNB
 
+## NFT Metadata
+Just create a db.json in your repo.
+It will be inserted in 2_deploy.js
+I'm going to use this image
+"Black Drongo 烏秋" by spongebabyalwaysfull is marked with CC0 1.0
+https://live.staticflickr.com/3938/15617743576_b54929f668_b.jpg 
+
+
 ## Openzeppelin-NFT + Truffle
 ```
 $ mkdir bsc-nft && cd bsc-nft
@@ -24,3 +32,5 @@ Create 2_deploy.js and modify truffle-config.js (see file to copy)
 !WARNING!
 Create a new .secret file in root directory and enter your 12 word mnemonic seed phrase to get started.
 Don't share your mnemonic!!!
+
+##
