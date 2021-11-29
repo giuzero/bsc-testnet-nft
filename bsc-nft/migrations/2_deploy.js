@@ -3,5 +3,5 @@
 const ERC721PresetMinterPauserAutoId = artifacts.require("ERC721PresetMinterPauserAutoId");
 
 module.exports = function(deployer) {
-  deployer.deploy(ERC721PresetMinterPauserAutoId, "BSC Drongo NFT","DRNG", "http://my-json-server.typicode.com/huangsuyu/nft/tokens");
+  deployer.deploy(ERC721PresetMinterPauserAutoId, "BSC Drongo NFT","DRNG", "u have to merge in main to use this :(");
 };
