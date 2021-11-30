@@ -35,7 +35,7 @@ Copy the contract preset
 $ mkdir -p build/contracts/
 $ cp node_modules/@openzeppelin/contracts/build/contracts/* build/contracts/
 ```
-Create ```2_deploy.js``` inside ```migration``` folder and modify ```truffle-config.js``` inside the root folder (see file to copy)
+Create ```2_deploy.js``` inside ```migration``` folder and modify ```truffle-config.js``` inside the root folder (see files to copy)
 
 !WARNING!
 Create a new ```.secret``` file in root directory and enter your 12 word mnemonic seed phrase to get started.
@@ -81,4 +81,13 @@ Repeat last instruction foreach NFT.
 
 ## Import into Metamask Mobile
 
+## Add BSC testnet to metamask mobile
+ChainId ```97```
+RPC ```https://data-seed-prebsc-1-s1.binance.org:8545/```
 
+Import the wallet.
+
+### Import NFT 
+
+Just retrieve contract address with ```nft.address``` and put it in the form.
+The ID is the one specified in the API defifinition.

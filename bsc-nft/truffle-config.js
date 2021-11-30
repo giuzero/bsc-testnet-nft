@@ -10,7 +10,7 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
     },
     testnet: {
-      provider: () => new HDWalletProvider(mnemonic, `https://data-seed-prebsc-1-s1.binance.org:8545`),
+      provider: () => new HDWalletProvider(mnemonic, `https://data-seed-prebsc-1-s1.binance.org:8545`), // try wss://data-seed... if it does not work
       network_id: 97,
       confirmations: 10,
       timeoutBlocks: 200,
