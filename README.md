@@ -12,12 +12,19 @@ The api endopoints will be inserted in ```2_deploy.js```
 I'm going to use these images:
 
 "Black Drongo 烏秋" by spongebabyalwaysfull is marked with CC0 1.0
+
 https://live.staticflickr.com/3938/15617743576_b54929f668_b.jpg
+
 "Black Drongo 烏秋" by spongebabyalwaysfull is marked with CC0 1.0
+
 https://live.staticflickr.com/5611/15460717817_14e2ff5030_b.jpg
+
 "Spangled Drongo (Dicrurus bracteatus)" by magdalena_b is marked with CC0 1.0
+
 https://live.staticflickr.com/6215/6219515303_910ee8c82a_b.jpg
+
 "Spangled Drongo (Dicrurus bracteatus)" by magdalena_b is marked with CC0 1.0
+
 https://live.staticflickr.com/2066/5735923794_aea440efb2_b.jpg
 
 ## Openzeppelin-NFT + Truffle
