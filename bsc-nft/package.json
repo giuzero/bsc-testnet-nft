@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.7.0",
+    "pify": "^5.0.0",
     "truffle": "^5.4.22"
   }
 }
