@@ -75,7 +75,7 @@ truffle(develop)> await nft.tokenURI(0)
 ## Let's go to the testnet (Binance Chain Chapel Testnet)
 
 ```truffle-config.js``` and ```.secret``` are already set.
-Had error using http for testnet, chenged in wss.
+Had error using http for testnet, changed in wss.
 So let's deploy to testnet
 ```
 npx truffle console --network testnet
